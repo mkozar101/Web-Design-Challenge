@@ -9,13 +9,78 @@
 
 <body>
   
-<h1>Weather Comparison Page</h1>
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-
-</body>
-
-</html>
+  <body>
+  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Data Visualization</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarColor03">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true">Plots</a>
+            <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 37px, 0px); top: 0px; left: 0px; will-change: transform;">
+              <a class="dropdown-item" href="WeatherVisualization1.html">Temperature</a>
+              <a class="dropdown-item" href="WeatherVisualization2.html">Humidity</a>
+              <a class="dropdown-item" href="WeatherVisualization3.html">Cloudiness</a>
+              <a class="dropdown-item" href="WeatherVisualization4.html">Wind Speed</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="WeatherComparison.html">Comparison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="WeatherData.html">Data</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <br>
+          <br>
+          <div class="card border-secondary mb-3" style="max-width: 40rem;">
+            <div class="card-header">Temperature</div>
+            <div class="card-body">
+              <a href="WeatherVisualization1.html"><img src="Resources/Fig1.png",alt="Fig1 Lat & Temp",height=400, width=500></a>
+            </div>
+          </div>
+          <br>
+          <div class="card border-secondary mb-3" style="max-width: 40rem;">
+            <div class="card-header">Humidity</div>
+            <div class="card-body">
+              <a href="WeatherVisualization2.html"><img src="Resources/Fig2.png",alt="Fig2 Lat & Hum",height=400, width=500></a>
+            </div>
+          </div>
+        </div>  
+        <div class="col-md-6 col-sm-12">
+          <br>
+          <br>
+            <div class="card border-secondary mb-3" style="max-width: 40rem;">
+              <div class="card-header">Cloudiness</div>
+              <div class="card-body">
+                <a href="WeatherVisualization3.html"><img src="Resources/Fig3.png",alt="Fig2 Lat & Cloud",height=400, width=500></a>
+              </div>
+            </div>
+            <br>
+            <div class="card border-secondary mb-3" style="max-width: 40rem;">
+              <div class="card-header">Wind Speed</div>
+              <div class="card-body">
+                <a href="WeatherVisualization4.html"><img src="Resources/Fig4.png",alt="Fig2 Lat & Wind",height=400, width=500></a>
+              </div>
+            </div> 
+        </div>
+      </div>
+    </div>
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+  
+  </body>
+  
+  </html>
